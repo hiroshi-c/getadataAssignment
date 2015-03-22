@@ -10,13 +10,11 @@ Here is the outline of the process of this script.
 Each step is also described in the script file as comment.
 
 * Loading additional libraries
-
-    This script uses three additional libraries. data.table, reshape2, and plyr.
-
+  * This script uses three additional libraries. data.table, reshape2, and plyr.
 * Preparation: Read all the required files into each table.
-
-    This script assumes that all raw data files under "UCI HAR Dataset" sub directory of the workin directory. This reads the data from 8 different txt files and stores into data table per each file.
-
+  * This script assumes that all raw data files under "UCI HAR Dataset" sub directory of the workin directory.
+  * This reads the data from 8 different txt files and stores into data table per each file.
 * Step 1: Merges the training and the test sets to create one data set.
+* 
 
 
